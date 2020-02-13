@@ -1,0 +1,328 @@
+/*Import and Global --------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext');
+body{
+    color: white;
+    background-image: url("../images/background3f.jpg");
+    background-position: 0 -150px;
+    background-size: cover;
+    font-family: 'Volkhov', serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* End Import and Global*/
+/*Header */
+header{
+    background: none;
+    color: #ffffff;
+    padding-top: 5px;
+    padding: 0 20px;
+}
+.navigation {
+    float: right;  
+}
+.navigation a{
+
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.navigation ul{
+
+    padding: 40px 0 0 0;
+    
+}
+
+.navigation li {
+    padding: 55px 20px 0px 40px;
+    list-style: none;
+    display: inline;
+}
+.branding {
+    display: inline-block;
+    padding-top: 40px;
+}
+.branding h1{
+    font-family: 'Volkhov',serif;
+    font-style: normal;
+    font-size: 50px;
+}
+.tagline, 
+.logo {
+    margin: 0;
+    padding: 0;
+}
+/* Header end */
+
+.forms {
+    width: 100%;
+    margin: 0 auto;
+}
+/* Global */
+.button{
+
+color: white;
+background:none;
+border: 2px solid #333333;
+margin: 20px auto;
+text-align: center;
+font-size: 15px;
+border-radius: 24px;
+min-height: 40px;
+margin-left: 30px;
+
+
+}
+h5{
+
+    color: #262626;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 0;
+    padding: 2px;
+}
+
+
+#cats img{
+    
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 24px 24px 0px 0px;
+    margin-bottom: 15px;
+}
+
+.container{
+
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+header h4{
+
+    padding-top: 0;
+}
+header nav{
+float: right;
+
+
+}
+header #branding{
+float:left;
+
+}
+header #branding h1{
+margin: 0;
+
+}
+
+.container h1{
+
+margin-left: 20px;
+text-align: center;
+font-size: 50px;
+
+}
+.container p{
+
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+#searchArea{
+
+    margin: 0 auto;
+    padding: 0;
+}
+#searchArea .container h3{
+
+    margin:0;
+    padding: 0;
+    text-align: left;
+    font-size: 35px;
+    margin-top: 2px;
+    padding: 0;
+}
+
+.col{
+
+    display: inline-block;
+    width: 30%;
+    margin: 10px 20px;
+    height: 600px;
+    background: #ffffff;
+    margin-bottom: 50px;
+    border-bottom: #262626 8px solid;
+    border-radius: 24px;
+}
+.col p{
+
+margin-bottom: 150px;
+color: #262626;
+padding: 5px;
+font-size: 18px;
+
+}
+
+/*home page - search*/
+.wrapper-from {
+    margin: 0 auto;
+}
+.column-form-area {
+    display: inline-block;
+    width: 40%;
+    padding: 0 10px;
+}
+.column-form-select,
+.column-form-submit {
+    display: inline-block;
+    width: 25%;
+    padding: 0 10px;
+}
+input[type="search"],
+select{
+    min-height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 24px;
+    text-align: center;    
+}
+.column-form-submit button {
+    width: 100%;
+    margin: 0
+}
+
+
+
+/*.column2{
+
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+}
+.column3{
+
+    float:right;
+    width: 30%;
+    margin-right: 30px;
+}
+
+*/
+#cats{
+    padding-top: 80px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+
+/* Donate Page style */
+.Main{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.main-donate{
+
+    margin-left: 30px;
+    padding: 2px;
+
+}
+.name input[type=text]{
+
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.secondName input[type=text]{
+
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    margin: 10px;
+
+
+
+.gender{
+
+    width: 15%;
+    min-height: 40px;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+.gender label{
+
+    display: inline-block;
+}
+.amount{
+
+    width: 15%;
+    min-height: 40px;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+.buttonDonate{
+
+    color: white;
+background:none;
+border: 2px solid #333333;
+margin: 20px auto;
+text-align: center;
+font-size: 15px;
+border-radius: 24px;
+width: 20%;
+min-height: 40px;
+margin-top: 20px;
+margin-bottom: 80px;
+}
+
+
+.footer{
+
+        
+min-height: 150px;
+width:100%;
+background: #ffffff;
+color: #333333;
+padding: 0 20px;
+display: flex;
+border-top: 5px #262626 solid;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap-reverse;
+
+
+
+
+
+
+}
+.footer li{
+
+    color: black;
+}
+
+
