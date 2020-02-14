@@ -13,26 +13,23 @@
 
 <body>
 <header>
-<div class="logoNav">
-    <div class="branding">
-        <h1>Catfinder</h1>
-        <h4>Rescue Centre</h4>
-    </div><!--branding end-->
-    <nav class="navigation">
-        <ul>
-            <li><a href="index.html">Cats</a></li>
-            <li><a href="about.html">Home</a></li>
-            <li><a href="services.html">About</a></li>
-            <li><a href="donate.html">Donate</a></li>
-        </ul>
-    </nav>
-
-
-   
+    <div class="logoNav">
+        <div class="branding">
+            <h1 class="logo">Catfinder</h1>
+            <h4 class="tagline">Rescue Centre</h4>
+        </div><!--branding end-->
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Cats</a></li>
+                <li><a href="about.html">Home</a></li>
+                <li><a href="services.html">About</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </div><!--logoNav ending-->
 
 
 
-</div><!--logoNav ending-->
 
 <div class="Main">
 <h1>Can't adopt?</h1>
@@ -48,44 +45,49 @@
 
 </header>
 <div class="main-donate">
-        <form id="donate-form" action="">
-            <div class="name"><label for="name">Name</label>
-            <input type="text" placeholder="Enter your name...">
-            </div>
-            <div class="secondName"><label for="secondName">Surname</label>
-                <input type="text" placeholder="Enter your second name...">
+    <form>
+        <ul class="form-style-1">
+            <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+            <li>
+                <label>Date of birth <span class="required">*</span></label>
+                <input type="date" name="field3" class="field-long" />
+            </li>
             
-            </div>
-                  
-               <div class="gender"><label for="gender">Gender</label>
-                <select name="gender" id=""></div>
             
-            <option value="male">Male</option> 
-            <option value="female">Female</option> 
-            <option value="other">Other</option> <!--Choices in menu-->
-            </select>
-            </div>
-            <div class="amount"><label for="amount">Amount</label>
-            <select name="amount" id="">
-                <option value="1">€2</option>
-                <option value="2">€5</option>
-                <option value="3">€8</option>
-                <option value="4">€10</option>
-                <option value="5">€15</option>
-                <option value="6">€20</option>
-                <option value="7">€25</option>
-                <option value="8">€30</option>
-                <option value="9">€35</option>
-                <option value="10">€40</option>
-                <option value="11">€50</option>
-                <option value="12">€100</option>
-                
-
-
-            </select>
-            </div>
-            <button type="submit" class="buttonDonate">Donate</button>
+            <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="field4" class="field-long" />
+            </li>
+            <li>
+                <label>Amount</label>
+                <select name="field5" class="field-select">
+                    <option value="1">€2</option>
+                    <option value="2">€5</option>
+                    <option value="3">€8</option>
+                    <option value="4">€10</option>
+                    <option value="5">€15</option>
+                    <option value="6">€20</option>
+                    <option value="7">€25</option>
+                    <option value="8">€30</option>
+                    <option value="9">€35</option>
+                    <option value="10">€40</option>
+                    <option value="11">€50</option>
+                    <option value="12">€100</option>
+                </select>
+            </li>
+            <li>
+                <label>Your Message <span class="required">*</span></label>
+                <textarea name="field6" id="field6" class="field-long field-textarea"></textarea>
+            </li>
+            <li>
+                <input type="submit" value="Donate" />
+            </li>
+        </ul>
         </form>
+
+
+        
+       
     </div>
     
 </section>

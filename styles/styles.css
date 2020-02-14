@@ -203,20 +203,6 @@ select{
 }
 
 
-
-/*.column2{
-
-    width: 30%;
-    margin: 0px 10px 0px 10px;
-}
-.column3{
-
-    float:right;
-    width: 30%;
-    margin-right: 30px;
-}
-
-*/
 #cats{
     padding-top: 80px;
     margin: 0 auto;
@@ -233,57 +219,108 @@ select{
 
 .main-donate{
 
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-bottom: 80px;
     padding: 2px;
+    font-size: large;
 
 }
-.name input[type=text]{
+/* DONATE FORM STYLE */
 
-    width: 100%;
-    min-height: 40px;
-    border: none;
-    border-radius: 24px;
-    text-align: center;
-    margin: 10px;
-    box-sizing: border-box;
+.form-style-1 {
+	margin:0;
+	max-width: 800px;
+	padding: 20px 12px 10px 20px;
+	font: 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-.secondName input[type=text]{
-
-    width: 100%;
-    min-height: 40px;
-    border: none;
-    border-radius: 24px;
-    text-align: center;
-    margin: 10px;
-
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 24px;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #3d2523;
+	-webkit-box-shadow: 0 0 8px #3d2523;
+	box-shadow: 0 0 8px #3d2523;
+	border: 1px solid #3d2523;
+}
+.form-style-1 .field-divided{
+	width: 49%;
 }
 
-.gender{
-
-    width: 15%;
-    min-height: 40px;
-    border: none;
-    border-radius: 24px;
-    text-align: center;
-    margin: 10px;
-    
-
+.form-style-1 .field-long{
+	width: 100%;
 }
-.gender label{
-
-    display: inline-block;
+.form-style-1 .field-select{
+	width: 100%;
 }
-.amount{
-
-    width: 15%;
-    min-height: 40px;
-    border: none;
-    border-radius: 24px;
-    text-align: center;
-    margin: 10px;
-    
-
+.form-style-1 .field-textarea{
+	height: 100px;
 }
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: none;
+    padding: 16px 30px 16px 30px;
+    width: 200px;
+	border-radius: 24px;
+    color: #ffffff;
+    font-style:bold;
+    text-transform: uppercase;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #3d2523;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+
+
+
+
+
+
+
+
 .buttonDonate{
 
     color: white;
@@ -300,6 +337,15 @@ margin-bottom: 80px;
 }
 
 
+
+
+
+
+
+
+
+
+/* FOOTER */
 .footer{
 
         
@@ -312,12 +358,6 @@ display: block;
 border-top: 5px  #3d2523 solid;
 justify-content: space-between;
 align-items: center;
-
-
-
-
-
-
 
 }
 .social-media{
